@@ -1,0 +1,13 @@
+fin<-read.csv(file.choose(),header=T,sep=','[data])
+view(fin)
+#structure of the data
+str(fin)
+summary(fin)
+#convert ID to factor data
+finID<-factor(fin$ID)
+#factor variable trap
+x<-c("12","13","14")
+class(x)
+x.factor<-factor(x)
+class(x.factor)
+x.factor
