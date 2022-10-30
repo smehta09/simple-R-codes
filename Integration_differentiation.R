@@ -43,7 +43,6 @@ integrate(fexp,0,Inf)
 
 #Application of integration function
 #integrate functiion can only integrate for single argument
-# pareto eg in sir video
 
 
 
